@@ -1,6 +1,7 @@
 package _02_Pixel_Art;
 
 import java.awt.Color;
+import java.awt.Graphics;
 
 public class Pixel{
 	public int x;

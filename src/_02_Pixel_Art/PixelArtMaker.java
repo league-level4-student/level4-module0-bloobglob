@@ -1,5 +1,6 @@
 package _02_Pixel_Art;
 
+import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
