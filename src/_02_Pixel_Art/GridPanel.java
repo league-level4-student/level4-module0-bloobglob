@@ -3,18 +3,19 @@ package _02_Pixel_Art;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
+import java.io.Serializable;
 
 import javax.swing.JPanel;
 
-public class GridPanel extends JPanel{
+public class GridPanel extends JPanel implements Serializable{
 
 	private static final long serialVersionUID = 1L;
-	private int windowWidth;
-	private int windowHeight;
-	private int pixelWidth;
-	private int pixelHeight;
-	private int rows;
-	private int cols;
+	protected int windowWidth;
+	protected int windowHeight;
+	protected int pixelWidth;
+	protected int pixelHeight;
+	protected int rows;
+	protected int cols;
 	
 	//1. Create a 2D array of pixels. Do not initialize it yet.
 	Pixel[][] pixels;
